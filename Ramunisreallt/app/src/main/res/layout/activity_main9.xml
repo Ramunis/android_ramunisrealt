@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity9">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/addid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="id" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="172dp"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/adddc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="dc" />
+
+                    <TextView
+                        android:id="@+id/addds"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ds" />
+
+                    <TextView
+                        android:id="@+id/addusername"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="realtor" />
+
+                    <TextView
+                        android:id="@+id/addcity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="city" />
+
+                    <TextView
+                        android:id="@+id/addarea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="area" />
+
+                    <TextView
+                        android:id="@+id/addadres"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="adres" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/addservice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="service" />
+
+                    <TextView
+                        android:id="@+id/addsquare"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="square" />
+
+                    <TextView
+                        android:id="@+id/addterm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="term" />
+
+                    <TextView
+                        android:id="@+id/addprice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="price" />
+
+                    <TextView
+                        android:id="@+id/addpay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="pay" />
+
+                    <TextView
+                        android:id="@+id/addrepair"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="repair" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="204dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#00BCD4"
+                    android:text="Профиль"
+                    app:iconTint="#00BCD4"
+                    app:strokeColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="203dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#4CAF50"
+                    android:text="Купить"
+                    app:iconTint="#4CAF50" />
+            </LinearLayout>
+
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

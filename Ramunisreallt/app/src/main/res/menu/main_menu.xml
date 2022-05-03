@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/rent"
+        android:orderInCategory="1"
+        android:title="Аренда" />
+    <item
+        android:id="@+id/buy"
+        android:orderInCategory="2"
+        android:title="Продажа" />
+    <item
+        android:id="@+id/newbuild"
+        android:orderInCategory="3"
+        android:title="Новостройки" />
+    <item
+        android:id="@+id/my"
+        android:orderInCategory="4"
+        android:title="Мои объявления" />
+    <item
+        android:id="@+id/mybuy"
+        android:orderInCategory="5"
+        android:title="Мои покупки" />
+    <item
+        android:id="@+id/mysale"
+        android:orderInCategory="6"
+        android:title="Мои продажи" />
+    <item
+        android:id="@+id/buying"
+        android:orderInCategory="7"
+        android:title="Сдать" />
+    <item
+        android:id="@+id/buyed"
+        android:orderInCategory="8"
+        android:title="Продать" />
+    <item
+        android:id="@+id/calc"
+        android:orderInCategory="9"
+        android:title="Ипотечный калькулятор" />
+
+</menu>
